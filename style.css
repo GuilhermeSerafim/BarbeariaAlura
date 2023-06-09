@@ -255,6 +255,7 @@ p:first-line {
 
 }	
 
+/* Home responsiva*/
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
@@ -270,7 +271,17 @@ p:first-line {
 	}
 
 	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
+		width: auto;
 	}
 
+}
+
+/* Página de Produtos responsiva */
+@media screen and (max-width: 480px) {
+	.produtos, .produtos li {
+		width: auto;
+	}
+	.produtos li {
+		margin: 20px;
+	}
 }
